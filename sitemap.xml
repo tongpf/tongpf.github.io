@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <url>
+        <loc>https://tongpf.github.io/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/talks/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/categories/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/dimension-reduction/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/distribution-free/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/domain-generalization/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/talks/domain-generalization/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/kernel-method/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/categories/talks/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/transfer-learning/</loc>
+        <lastmod>2023-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/change-point-detection/</loc>
+        <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/talks/ensemble-seizure-detection/</loc>
+        <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/expert-system/</loc>
+        <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/few-shot-learning/</loc>
+        <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/independent-component-analysis/</loc>
+        <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/inverse-regression/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/linear-mixed-effect-models/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/multivariate-calibration/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/talks/multivariate-calibrations-with-auxiliary-information/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/multivariate-response-variables/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/shrinkage-estimation/</loc>
+        <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/post/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/categories/python/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/categories/r/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E5%8C%85/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/tags/%E8%87%AA%E5%8A%A8%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://tongpf.github.io/%E8%AE%A9%E4%BD%A0%E7%9A%84python%E5%92%8Cr%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97%E6%8F%90%E9%80%9F10-100%E5%80%8D/</loc>
+        <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+</urlset>

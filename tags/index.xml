@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Home</title>
+    <link>https://tongpf.github.io/tags/</link>
+    <description>Recent content in Tags on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tongpf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dimension reduction</title>
+      <link>https://tongpf.github.io/tags/dimension-reduction/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/dimension-reduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribution free</title>
+      <link>https://tongpf.github.io/tags/distribution-free/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/distribution-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain generalization</title>
+      <link>https://tongpf.github.io/tags/domain-generalization/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernel method</title>
+      <link>https://tongpf.github.io/tags/kernel-method/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/kernel-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>https://tongpf.github.io/tags/transfer-learning/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change point detection</title>
+      <link>https://tongpf.github.io/tags/change-point-detection/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/change-point-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expert system</title>
+      <link>https://tongpf.github.io/tags/expert-system/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/expert-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Few-shot learning</title>
+      <link>https://tongpf.github.io/tags/few-shot-learning/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/few-shot-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Independent component analysis</title>
+      <link>https://tongpf.github.io/tags/independent-component-analysis/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/independent-component-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse regression</title>
+      <link>https://tongpf.github.io/tags/inverse-regression/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/inverse-regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

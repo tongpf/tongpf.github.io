@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Few-shot learning on Home</title>
+    <link>https://tongpf.github.io/tags/few-shot-learning/</link>
+    <description>Recent content in Few-shot learning on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tongpf.github.io/tags/few-shot-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ensembled Seizure Detection based on Small Training Samples</title>
+      <link>https://tongpf.github.io/talks/ensemble-seizure-detection/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/talks/ensemble-seizure-detection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

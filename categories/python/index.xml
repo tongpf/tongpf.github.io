@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Home</title>
+    <link>https://tongpf.github.io/categories/python/</link>
+    <description>Recent content in python on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tongpf.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>让你的Python和R矩阵运算提速10-100倍</title>
+      <link>https://tongpf.github.io/%E8%AE%A9%E4%BD%A0%E7%9A%84python%E5%92%8Cr%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97%E6%8F%90%E9%80%9F10-100%E5%80%8D/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/%E8%AE%A9%E4%BD%A0%E7%9A%84python%E5%92%8Cr%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97%E6%8F%90%E9%80%9F10-100%E5%80%8D/</guid>
+      <description>使用python和R进行科学计算，最为人所诟病的是它们的运算速度。然而，通过关联Intel MKL线性代数库，你可以使python和R达到和matlab类似的运算速度，并且自动使用闲置CPU核心进行并行。 Python和R是一种解释性语言，因此直接调用python和R中的循环进行矩阵运算的速度是不能接受的。进阶技巧是使用如Python的numpy包和R中的Matrix包等进行向量化运算。这些向量化运算的底层实现使用基于Fortran的线性代数包BLAS和LAPACK，因此速度数百倍快于循环运算。 然而，对于大型矩阵运算，如数千乃至数万维矩阵乘法，求逆运算等，即使向量化后依然需要很长的计算时间。查阅numpy手册和R的矩阵运算手册，我们可以发现对于大多数用户，这些科学计算并不依赖于系统中安装的底层线性代数包（通常个人电脑中也不会安装这些包），而是在源码中整合配置了OpenBLAS作为默认的运算包。这样的好处是可以pip一键安装numpy（R甚至不需要安装），而劣势是这些运算包并没有发挥CPU的最大性能。 对于使用了Intel CPU的设备而言，使用Intel MKL包（Math Kernel Library）是一种好选择。我们可能听说过Matlab在矩阵运算上很有优势，然而，这种优势部分基于其内部集成了MKL包。通过将Python和R与MKL关联，我们可以实现与Matlab类似的矩阵运算速度，摆脱慢速的刻板印象。 只需两步，实现关联MKL和python或R。
+第一步：在电脑上安装MKL： Intel® oneAPI Base Toolkits 集成了Intel® oneAPI Math Kernel Library，可在其官网找到适合自己系统的安装版本。对于windows系统，其安装文档见（https://www.intel.com/content/www/us/en/develop/documentation/installation-guide-for-intel-oneapi-toolkits-windows/top.html）。值得注意的是，windows系统上的安装需要先安装Visual Studio 2019及以上版本，以及在Visual studio中配置好&amp;quot;使用C++的桌面开发&amp;quot;所需的组件。其它的步骤只需跟随安装软件指引即可。 下载地址：Download the Intel® oneAPI Base Toolkit，选择操作系统版本，下载在线或离线安装版本。 安装：双击.exe文件，跟从安装包指引即可。安装默认位置为C:\Program Files (x86)\Intel\oneAPI
+第二步：关联Python或R 对于python中numpy，scipy等的关联，可以使用Anaconda安装并管理Intel发行的python版本，安装方式参考（https://www.intel.com/content/www/us/en/developer/articles/technical/using-intel-distribution-for-python-with-anaconda.html）。此外，亦可以手动配置numpy和scipy所用的底层科学计算包，参考（https://www.intel.com/content/www/us/en/developer/articles/technical/numpyscipy-with-intel-mkl.html）。这里更推荐使用Anaconda直接安装所需版本的python，便于版本管理。 安装（windows版本）：进入Anaconda命令行环境 更新conda版本至4.1.11以上
+conda update conda 告诉conda优先选择intel版本的package
+conda config --add channels intel 创建一个名为idp的python虚拟环境，选择合适的python版本
+conda create -n idp intelpython3_core python=3.x 进入虚拟环境idp
+activate idp 正常使用conda管理和安装package即可。如
+conda install numpy 对于R的关联，同样有两种途径。第一种方法，下载由微软发行的Microsoft R Open（https://mran.revolutionanalytics.com/download），可以一键傻瓜式安装，同时默认配置MKL的多进程模式。此外，也可以参考（https://www.intel.com/content/www/us/en/developer/articles/technical/using-onemkl-with-r.html）中的介绍手动配置R调用的科学计算包。 下载Microsoft R Open：Home 安装（windows版本）：以管理员身份运行.exe文件，跟随安装包指引即可 唯一值得注意的是，微软R默认的CRAN镜像较老，更新也不及时，建议安装之后在Rstudio中改为自己常用的镜像网址，如在Rstudio-&amp;gt;Tools-&amp;gt;Global options-&amp;gt;Packages中改为https://mirrors.tuna.tsinghua.edu.cn/CRAN/。
+最后，我们可以进行简单的矩阵运算验证效果。以R为例，链接MKL之前的矩阵运算%*%只会调用一个核心，链接之后会默认使用闲置核心，最大化CPU效率。可以认为，现在使用numpy和R的矩阵运算效率能够达到Matlab中的水平。</description>
+    </item>
+    
+  </channel>
+</rss>
