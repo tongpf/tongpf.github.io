@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tongpf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tongpf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brain source imaging</title>
+      <link>https://tongpf.github.io/tags/brain-source-imaging/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/brain-source-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain generalization</title>
+      <link>https://tongpf.github.io/tags/domain-generalization/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuroscience</title>
+      <link>https://tongpf.github.io/tags/neuroscience/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seizure detection</title>
+      <link>https://tongpf.github.io/tags/seizure-detection/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/seizure-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>https://tongpf.github.io/tags/transfer-learning/</link>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tongpf.github.io/tags/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Dimension reduction</title>
       <link>https://tongpf.github.io/tags/dimension-reduction/</link>
@@ -26,29 +71,11 @@
     </item>
     
     <item>
-      <title>Domain generalization</title>
-      <link>https://tongpf.github.io/tags/domain-generalization/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tongpf.github.io/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kernel method</title>
       <link>https://tongpf.github.io/tags/kernel-method/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://tongpf.github.io/tags/kernel-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transfer learning</title>
-      <link>https://tongpf.github.io/tags/transfer-learning/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tongpf.github.io/tags/transfer-learning/</guid>
       <description></description>
     </item>
     
@@ -67,33 +94,6 @@
       <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://tongpf.github.io/tags/expert-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Few-shot learning</title>
-      <link>https://tongpf.github.io/tags/few-shot-learning/</link>
-      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tongpf.github.io/tags/few-shot-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Independent component analysis</title>
-      <link>https://tongpf.github.io/tags/independent-component-analysis/</link>
-      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tongpf.github.io/tags/independent-component-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inverse regression</title>
-      <link>https://tongpf.github.io/tags/inverse-regression/</link>
-      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tongpf.github.io/tags/inverse-regression/</guid>
       <description></description>
     </item>
     
